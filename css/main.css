@@ -90,6 +90,46 @@ a{
 
 
 
+/* !!!!!!!MAIN PAGE!!!!!!! */
+
+
+.main-box{
+    display: flex;
+}
+
+.left-part{
+    margin: 217px 0 0 139px;
+}
+
+.left-part>h4{
+    font-size: 18px;
+    color: #20484F;
+}
+
+.left-part>h1{
+    font-size: 64px;
+    color: #072125;
+    line-height: 120%;
+}
+
+.left-part>p{
+    font-size: 24px;
+    color: #072125;
+    line-height: 150%;
+}
+
+.buttons-sing-and-learn{
+    display: flex;
+}
+
+.first-frame{
+    position: absolute;
+}
+
+.main-photo{
+    position: absolute;
+}
+
 /* !!!!!!SIGN-UP!!!!!LOG-IN!!!!! */
 
 .sign-up-log-in-block{
@@ -285,8 +325,13 @@ footer{
 .block-navigation{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 100px;
+}
+
+.navigation-title{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .block-navigation>a{
