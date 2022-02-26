@@ -95,6 +95,8 @@ a{
 
 .main-box{
     display: flex;
+    background: #FAFAFA;
+    padding-bottom: 120px;
 }
 
 .left-part{
@@ -122,13 +124,88 @@ a{
     display: flex;
 }
 
+.buttons-sing-and-learn>.sign-up{
+    background-color: #20484F;
+    color: white;
+}
+
+.buttons-sing-and-learn>.sign-up:hover{
+    background-color: white;
+    color: white;
+}
+
 .first-frame{
     position: absolute;
+    margin: 115px 0 0 185px;
+
 }
 
 .main-photo{
     position: absolute;
+    margin: 165px 0 0 255px;
 }
+
+.main-avatar{
+    display: flex;
+    position: relative;
+    background-color: white;
+    margin: 185px 0 0 400px;
+    padding: 20px 50px 20px 20px;
+    border-radius: 8px;
+}
+
+.main-avatar>img{
+    margin: 0 20px 0 0;
+    width: 70px;
+    height: 70px;
+}
+
+.discription-avatar>h3{
+    font-size: 24px;
+    color: #072125;
+    margin: 0 0 9px 0;
+}
+
+.discription-avatar>h4{
+    font-size: 16px;
+    line-height: 150%;
+    color: #20484F;
+    margin: 0;
+}
+
+.under-text-and-images{
+    width: 400px;
+    display: flex;
+    position: relative;
+    margin: 240px 0 0 160px; 
+    padding: 10px 0 12px 30px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.under-text-and-images>img{
+    height: 64px;
+    width: 64px;
+    margin: 20px 28px 0 0;
+}
+
+.project-updated{
+    font-size: 24px;
+    color: #20484F;
+}
+
+.project-updated>div{
+    display: grid;
+}
+
+.project-updated>div>img{
+    margin-bottom: 12px;
+}
+
+.fake-button{
+    margin-top: 12px;
+}
+
 
 /* !!!!!!SIGN-UP!!!!!LOG-IN!!!!! */
 
