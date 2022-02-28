@@ -97,6 +97,7 @@ a{
     display: flex;
     background: #FAFAFA;
     padding-bottom: 120px;
+    margin-bottom: 0px;
 }
 
 .left-part{
@@ -125,14 +126,43 @@ a{
 }
 
 .buttons-sing-and-learn>.sign-up{
+    margin-right: 30px;
+    width: 130px;
+    height: 35px;
+    font-size: 24px;
+    background-color: #20484F;
+    color: white;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+
+.buttons-sing-and-learn>.sign-up:hover{
+    background-color: #B8E4DA;
+    color: #20484F;
+}
+
+.sign-up-span, .learn-more-span{
+    font-size: 18px;
+}
+
+.buttons-sing-and-learn>.learn{
+    width: 130px;
+    height: 35px;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    padding: 16px 10px;
+    background-color: white;
+    color: #072125;
+    border-radius: 8px;
+    transition: 300ms;
+    text-align: center;
+    font-size: 24px;
+}
+
+.buttons-sing-and-learn>.learn:hover{
     background-color: #20484F;
     color: white;
 }
 
-.buttons-sing-and-learn>.sign-up:hover{
-    background-color: white;
-    color: white;
-}
 
 .first-frame{
     position: absolute;
@@ -205,6 +235,48 @@ a{
 .fake-button{
     margin-top: 12px;
 }
+
+
+/* !!!!!!!!!leading_companies!!!!!!!!!!! */
+
+.leading_companies{
+    padding: 40px 0;
+    background-color: #FAFAFA;
+    color: #20484F;
+}
+
+.leading_companies>p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.leading_companies>p>span{
+    font-weight: 700;
+}
+
+.companies{
+    justify-content: center;
+    display: flex;
+}
+
+.companies>p{
+    margin-right: 89px;
+    font-size: 40px;
+}
+
+.companies>p>i{
+    margin-right: 10px;
+}
+
+.companies>.sony{
+    height: 10px;
+    font-weight: 700;
+}
+
+.companies>.slack_facebook{
+    font-weight: 700;
+}
+
 
 
 /* !!!!!!SIGN-UP!!!!!LOG-IN!!!!! */
