@@ -211,6 +211,7 @@ a{
     padding: 10px 0 12px 30px;
     background-color: white;
     border-radius: 12px;
+    /* box-shadow: 0px 4px 40px rgba(138, 138, 138, 0.04); */
 }
 
 .under-text-and-images>img{
@@ -359,11 +360,94 @@ a{
 }
 
 .torn-strip-top{
-    background-color: #FAFAFA;
+    background: linear-gradient(to bottom, #FAFAFA 80%, white 20%);
+    /* background-color: #FAFAFA; */
 }
 
 .torn-strip-top>img{
-    width: 1540px; ;
+    width: 1540px;
+}
+
+
+/* !!!!!!!!!!quickly-helps!!!!!!!!!! */
+
+.quickly-helps{
+    padding: 100px 120px;
+}
+
+.quickly-helps-plan{
+    margin-top: 200px;
+}
+
+.quickly-helps>h2{
+    text-align: center;
+    font-size: 32px;
+    color: #072125;
+}
+
+.quickly-helps-plan>img{
+    position: absolute;
+    margin:100px 0 0 300px;
+}
+
+.quickly-helps-plan-images{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.quickly-helps-plan-image{
+    margin-right: 120px;
+}
+
+.quickly-helps-plan-image-3{
+    margin-left: -30px;
+}
+
+.quickly-helps-img-BG{
+    position: absolute;
+}
+
+.quickly-helps-img-element-1,
+.quickly-helps-img-element-2,
+.quickly-helps-img-element-3{
+    position: relative;
+}
+
+.quickly-helps-img-element-1{
+    margin-left: 30px;
+}
+
+.quickly-helps-img-element-2{
+    margin-left: -50px;
+    margin-top: 60px;
+}
+
+.quickly-helps-img-element-3{
+    margin-left: 15px;
+}
+
+.quickly-helps-plan-discriptions{
+    display: flex;
+    text-align: center;
+}
+
+.quickly-helps-plan-discription{
+    margin: 0 110px 0 40px;
+    width: 300px;
+    color: #072125;
+}
+
+#quickly-helps-plan-discription-3{
+    margin: 0 0 0 70px;
+}
+
+.quickly-helps-plan-discription>h4{
+    font-size: 24px;
+}
+
+.quickly-helps-plan-discription>p{
+    font-size: 16px;
+    line-height: 150%;
 }
 
 
