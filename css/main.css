@@ -30,11 +30,20 @@ a{
     margin-left: 365px;
 }
 
+
 .menu-links > a{
     font-size: 16px;
     color: white;
     margin-right: 32px;
     transition: 300ms;
+}
+
+.menu-links>.links-page{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    transition: none;
+    
 }
 
 /* .links-page{
@@ -56,6 +65,8 @@ a{
     transform: scale(1.2);
     color: black;
 }
+
+
 
 .sign_login{
     font-size: 14px;
@@ -89,8 +100,9 @@ a{
 }
 
 
+/* !!!!!!!!!!HOME PAGE!!!!!!!!!! */
 
-/* !!!!!!!MAIN PAGE!!!!!!! */
+/* !!!!!!!main-box!!!!!!! */
 
 
 .main-box{
@@ -98,6 +110,7 @@ a{
     background: #FAFAFA;
     padding-bottom: 120px;
     margin-bottom: 0px;
+    color: #072125;
 }
 
 .left-part{
@@ -111,13 +124,11 @@ a{
 
 .left-part>h1{
     font-size: 64px;
-    color: #072125;
     line-height: 120%;
 }
 
 .left-part>p{
     font-size: 24px;
-    color: #072125;
     line-height: 150%;
 }
 
@@ -151,7 +162,6 @@ a{
     border: 1px solid rgba(32, 72, 79, 0.1);
     padding: 16px 10px;
     background-color: white;
-    color: #072125;
     border-radius: 8px;
     transition: 300ms;
     text-align: center;
@@ -192,7 +202,6 @@ a{
 
 .discription-avatar>h3{
     font-size: 24px;
-    color: #072125;
     margin: 0 0 9px 0;
 }
 
@@ -282,7 +291,6 @@ a{
 
 .important-functions{
     display: flex;
-    color: #072125;
     padding: 120px 0 80px 120px;
     background-color: #FAFAFA;
 }
@@ -359,12 +367,21 @@ a{
     transform: scale(0.6);
 }
 
+
+/* !!!!!!!!!!!!!!torn-strip-top & torn-strip-bottom!!!!!!!!! */
+
 .torn-strip-top{
     background: linear-gradient(to bottom, #FAFAFA 80%, white 20%);
     /* background-color: #FAFAFA; */
 }
 
-.torn-strip-top>img{
+.torn-strip-bottom{
+    /* background: linear-gradient(to top, white 80%, #FAFAFA 20%); */
+    background-color: #FAFAFA;
+}
+
+.torn-strip-top>img,
+.torn-strip-bottom>img{
     width: 1540px;
 }
 
@@ -382,7 +399,6 @@ a{
 .quickly-helps>h2{
     text-align: center;
     font-size: 32px;
-    color: #072125;
 }
 
 .quickly-helps-plan>img{
@@ -434,7 +450,6 @@ a{
 .quickly-helps-plan-discription{
     margin: 0 110px 0 40px;
     width: 300px;
-    color: #072125;
 }
 
 #quickly-helps-plan-discription-3{
@@ -450,6 +465,229 @@ a{
     line-height: 150%;
 }
 
+
+/* !!!!!!!!!!!quickly_for_you!!!!!!!!! */
+
+.quickly_for_you{
+    padding: 75px 0 125px 120px;
+}
+
+.quickly_for_you>h3{
+    font-size: 32px;
+}
+
+.quickly_for_you>p{
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.quickly_for_you_blocks{
+    display: flex;
+}
+
+.quickly_for_you_block{
+    width: 266px;
+    margin-right: 60px;
+}
+.quickly_for_you_block>h5{
+    font-size: 18px;
+}
+
+.quickly_for_you_block>p{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+/* !!!!!!!!!!customer_comments!!!!!!!!!!! */
+
+.customer_comments{
+    padding: 70px 150px 165px 120px;
+    background-color: #FAFAFA; 
+}
+
+.customer_comments_title{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.customer_comments_title_left>h2{
+    font-size: 32px;
+}
+
+.customer_comments_title_left>p{
+    font-size: 16px;
+}
+
+.customer_comments_title>a{
+    font-size: 18px;
+    height: 20px;
+    padding: 16px 30px;
+    margin: 40px 0 0 auto;
+}
+
+.customer_comments_blocks{
+    display: flex;
+
+}
+
+.customer_comments_block{
+    background-color: white;
+    padding: 35px 45px;
+    border-radius: 24px;
+    margin-right: 50px;
+    z-index: 100;
+}
+
+.customer_comment{
+    width: 270px;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 85px;
+}
+
+.customer_name{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.customer_position{
+    font-size: 14px;
+    color: #20484F;
+    margin-left: 10px;
+}
+
+.customer_comments_blocks>img{
+    position: absolute;
+    margin: 350px 0 0 1180px;
+    transform: scale(1.5);
+    /* margin-left: 1230px; */
+}
+
+
+/* !!!!!!!!!!!!sign-free-trial!!!!!!!!! */
+
+.sign-free-trial{
+    padding: 70px 0 130px 0;
+    text-align: center;
+}
+
+.sign-free-trial>p{
+    font-size: 18px;
+    color: #20484F;
+}
+
+.sign-free-trial>h2{
+    font-size: 50px;
+    line-height: 120%;
+    margin-bottom: 60px;
+}
+
+.sign-free-trial>a{
+    font-size: 18px;
+    padding: 16px 36px;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!ABOUT US!!!!!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!about-us-own!!!!!!!!!!! */
+
+.about_us_container{
+    color: #072125;
+}
+
+
+.about-us-own{
+    background-color: #FAFAFA; 
+    display: flex;
+    padding-left: 120px;
+}
+
+.about-us-own-discription{
+    margin: 130px 100px 130px 0;
+    width: 750px;
+}
+
+.about-us-own-discription>h1{
+    font-size: 40px;
+    line-height: 47px;
+    position: relative;
+}
+
+.about-us-own-discription>p{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.about-us-own-discription>img{
+    margin: -55px 0 0 330px;
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.about-us-own>img{
+    margin: 60px 120px 25px 30px;
+}
+
+
+/* !!!!!!!!!when-we-work!!!!!!!!!!!!! */
+
+.when-we-work{
+    padding-left: 120px;
+    display: flex;
+}
+
+.when-we-work-title{
+    width: 550px;
+}
+
+.when-we-work-title>h2{
+    margin-top: 90px;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.when-we-work-title>p{
+    font-size: 18px;
+    line-height: 150%;
+    margin: 35px 0 80px 0;
+}
+
+.when-we-work-title>a{
+    margin-left: -3px;
+    font-size: 18px;
+    padding: 16px 36px;
+}
+
+.when-we-work-counting{
+    margin-top: 60px;
+}
+
+.two-counting{
+    display: flex;
+    margin: 10px 0 60px 220px;
+}
+
+.one-counting{
+    margin-right: 88px;
+}
+
+.one-counting>h3{
+    margin: 0 0 32px 0;
+    font-size: 64px;
+    color: #20484F;
+}
+
+.one-counting-discription{
+    font-size: 18px;
+}
+
+.one-counting-when{
+    font-size: 16px;
+}
 
 /* !!!!!!SIGN-UP!!!!!LOG-IN!!!!! */
 
