@@ -1133,6 +1133,205 @@ a {
   font-size: 18px;
 }
 
+/* !!!!!!!!!!!!!!!!features-cintainer!!!!!!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!!!!features-cintainer-title!!!!!!!!!!!!!!!! */
+
+.features-cintainer {
+  color: #072125;
+}
+
+.features-cintainer-title {
+  padding: 100px 0 60px 0;
+  text-align: center;
+  background: #fafafa;
+}
+
+.features-cintainer-title > p {
+  font-weight: 700;
+  font-size: 16px;
+  color: #20484f;
+}
+
+.features-cintainer-title > h1 {
+  font-size: 64px;
+}
+
+/* !!!!!!!!!product-decisions!!!!!!! */
+
+.product-decisions {
+  padding: 110px 0;
+  display: flex;
+}
+
+.product-decisions-images-own {
+  margin-left: 130px;
+  position: absolute;
+}
+
+.product-decisions-images-proj-up {
+  position: relative;
+  margin: -30px 0 0 380px;
+}
+
+.product-decisions-images-proj-over {
+  margin-left: 28px;
+  position: relative;
+}
+
+.product-decisions-right {
+  width: 600px;
+}
+
+.product-decisions-right > h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.product-decisions-right > p {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.product-decisions-discritions {
+  display: flex;
+}
+
+.product-decisions-discritions > img {
+  height: 44px;
+  margin: 30px 26px 0 0;
+}
+
+.product-decisions-discrition > h4 {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.product-decisions-discrition > p {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* !!!!!!how-the-product-works!!!!! */
+
+.how-the-product-works {
+  padding: 0 120px 50px 120px;
+  background-color: #fafafa;
+}
+
+.how-the-product-works-title {
+  display: flex;
+  padding: 90px 0 50px 0;
+  border-bottom: 2px solid rgba(32, 72, 79, 0.1);
+  margin-bottom: 50px;
+}
+
+.how-the-product-works-title-discription > h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.how-the-product-works-title-discription > p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.how-the-product-works-title > a {
+  margin: 100px 0 0 640px;
+  height: 20px;
+  padding: 16px 36px;
+}
+
+.features-visual {
+  display: flex;
+}
+
+/* .features-visual-buttons {
+  display: flexbox;
+} */
+
+.features-visual-buttons > button {
+  cursor: pointer;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 400px;
+  color: #072125;
+  background: white;
+  border-radius: 12px;
+  padding: 28px 36px;
+  border: 1px solid rgba(32, 72, 79, 0.1);
+  margin-bottom: 12px;
+  transition: 300ms;
+}
+
+.features-visual-buttons > button:hover {
+  background: #20484f;
+  color: white;
+}
+
+.features-visual-buttons > button > h5 {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.features-visual-buttons > button > p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.features-visual-images {
+  position: absolute;
+  transition: 400ms;
+}
+
+.features-visual-images > p {
+  width: 190px;
+  position: absolute;
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0;
+  transition: 400ms;
+}
+
+.features-visual-images > img {
+  position: absolute;
+  opacity: 0;
+  transition: 400ms;
+}
+
+#feature-add {
+  margin: 20px 0 0 1140px;
+}
+
+#add-collaborators {
+  margin: 440px 0 0 640px;
+}
+
+#edit-canvas {
+  margin: 430px 0 0 1000px;
+}
+
+#features-visual-decor-1 {
+  margin: 30px 0 0 1030px;
+}
+
+#features-visual-decor-2 {
+  margin: 270px 0 0 670px;
+}
+
+#features-visual-decor-3 {
+  margin: 310px 0 0 980px;
+}
+
+#features-visual-own-image {
+  margin: 50px 100px 0 0;
+  height: 370px;
+  opacity: 0;
+  transition: 400ms;
+}
+
 /* !!!!!!SIGN-UP!!!!!LOG-IN!!!!! */
 
 .sign-up-log-in-block {
